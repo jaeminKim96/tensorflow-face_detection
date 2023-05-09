@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Detecting your Face</title>
+</head>
+
+<body>
+    <h1>Take the Camera</h1>
+    <button id="goback">Main Display</button>
+    <img src="{{url_for('train')}}">
+    <script>
+        document.getElementById("goback").addEventListener("click", function () {
+            window.location.href = "/";
+        });
+    </script>
+</body>
+
+</html>

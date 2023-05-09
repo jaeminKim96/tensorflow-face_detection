@@ -1,0 +1,6 @@
+model1 -> detect(양자화), my_model(단순 컨버트)
+model2 -> detect1(양자화), my_model2(그냥 컨버트)
+
+final -> 양자화 컨버트: person_quantize -> person 폴더만 양자화에 사용
+			both -> nonperson까지 적용
+
