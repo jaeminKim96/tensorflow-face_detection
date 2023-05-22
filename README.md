@@ -1,3 +1,4 @@
+# 스마트 안전 조끼 프로젝트에 사용함
 # tensorflow-face_detection
 # using tensorflow, LBPH algorithm
 # int8 quantized complete
